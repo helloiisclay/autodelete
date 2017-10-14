@@ -12,42 +12,10 @@ $ScreenChannels = 3, 4, 5
 #Enter Archive root path in quotations
 $ArchiveRoot = "C:\Archive test"
 
-<#
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMWNXXNNNNNNNXNXXNMMMMMMMMMMMMMMMMMMMMMMMMWNNNNNXNXXXNMMMM
-MMMWOllllllclllllx0NWMMMMMMMMMMMMMMMMMWNX0OxdolllllllllOWMMM
-MMMWk:::::::::cx0NWMMMMMMMMMMMMMMMWX0kdoc::::::::::::::kWMMM
-MMMWk:::::::lxXWMMMMMMMMMMMMMWNX0xoc:::::::::::::::::::kWMMM
-MMMWk:::::cxXWMMMMMMMMMMMMWNOdol:::::::::::::::::::::::kWMMM
-MMMWk::::oKWMMMMMMMMMMMMWKxl:::::::::::::::::::::::::::kWMMM
-MMMWk::ckNMMMMMMMMMMMMW0dc:::::::::::::::::::::::::::::kWMMM
-MMMWk:lKWMMMMMMMMMMMN0d::::::::::::::::::::::::::::::::kWMMM
-MMMWkdXMMMMMMMMMMMWKd::::::::::::::::::::::::::::::::::kWMMM
-MMMWXNMMMMMMMMMWWNkc:::::::::::::::::::::::::::::::::::kWMMM
-MMMMMMMMMMMMMMMWKd:::::::::::::::::::::::::::::::::::::kWMMM
-MMMMMMMMMMMMMMWKo::::::::::::::::::::::::::::::::::::::kWMMM
-MMMMMMMMMMMMMWKo:::::::::::::::::::::::::::::::::::::::kWMMM
-MMMMMMMMMMMMMNd::::::::::::::::::::::::::::::::::::::::kWMMM
-MMMMMMMMMMMMWOc::::::::::::::::::::::::::::::::::::::::kWMMM
-MMMMMMMMMMMMWx:::::::::::::::::::::::::::::::::::::::::kWMMM
-MMMMMMMMMMMMWk::::::::::::::::::::::::::::::::::::::cdkXWMMM
-MMMMWWMMMMMMM0c::::::::::::::::::::::::::::::::::ldOK0k0WMMM
-MMMWOkNMMMMMMNkc:::::::::::::::::::::::::::::cox0K0ko::kWMMM
-MMMWk:lONMMMMMNOl:::::::::::::::::::::::::ldO0KOxl:::::kWMMM
-MMMWk:::oOXWMMMWXkoc:::::::::::::::::coxO0K0kdc::::::::kWMMM
-MMMWk:::::cdOXWMMMNKOxdlllccclllodxO0KK0kdl::::::::::::kWMMM
-MMMWk::::::::coxOKXNWWWNNXXXXXKKKKOkdoc::::::::::::::::kWMMM
-MMMWk::::::::::;::clodxxxxxddoolc::::::::::::::::::::::kWMMM
-MMMWk::::::::::::::::::::::::::::::::::::::::::::::::::kWMMM
-MMMWk:::::Created by Clayton Murray::::::::::::::::::::kWMMM
-MMMWk:::::Carolina Recording Systems:::::::::::::::::::kWMMM
-MMMWk::::::::::::::::::::::::::::::::::::::::::::::::::kWMMM
-MMMMX00000000000000000000000000000000000000000000000000XMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-#>
 
-#Automated section **Do Not Touch**
+
+
+#----------Automated section **Do Not Touch**--------------
 
 #Assign variables for date past audio retention
 $AudioYear = (get-date).AddDays(-$AudioRetention).ToString("yyy")
